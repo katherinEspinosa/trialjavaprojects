@@ -1,0 +1,44 @@
+package JLabel;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.border.Border;
+import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
+import java.awt.Color;
+import java.awt.Font;
+public class App {
+
+    public static void main(String[] args) {
+
+        //JLabel = a GUI display area for string of text, an image, or both
+
+        ImageIcon image = new ImageIcon("C:\\Users\\EDE\\Downloads\\cute-im-coming.gif"); //create image inside
+        Border border = BorderFactory.createLineBorder(Color.PINK,3); //color of border and width
+
+        JLabel label = new JLabel(); //create a label
+        label.setText("Hey, How are you?"); //set text of label
+        label.setIcon(image); //set image
+        label.setHorizontalTextPosition(JLabel.CENTER); // set text LEFT, CENTER, RIGHT of image icon
+        label.setVerticalTextPosition(JLabel.TOP); //set text TOP, CENTER, BOTTOM of image icon
+        label.setForeground(Color.PINK); //set Font Color of text
+        label.setFont(new Font ("Consolas", Font.BOLD,20)); //set font of text
+        label.setIconTextGap(10); //set gap of text to image
+        label.setBackground(Color.BLACK); //set Background color 
+        label.setOpaque(true); //display background color
+        label.setBorder(border); //set border
+        label.setVerticalAlignment(JLabel.CENTER); //set vertical position of icon+text within label 
+        label.setHorizontalAlignment(JLabel.CENTER); //set horizontal position of icon+text within label 
+        // label.setBounds(0, 0, 500, 500); //sets x,y position within frame as well as dimensions, sets boundaries to the label
+
+        JFrame frame = new JFrame();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //closes application
+        // frame.setSize(500,500); //sets x-dimension and y-dimension
+        // frame.setLayout (null);
+        frame.setVisible(true); //make frame visible
+        frame.add(label); //add the label in the frame
+        frame.pack(); //will resize the frame to accomodate all of the components of your label, since u really do not need to set size of frame
+        //if your going to use pack method, make sure to add all components first then pack
+
+    }
+    
+}
