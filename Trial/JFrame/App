@@ -1,0 +1,25 @@
+package JFrame;
+import java.awt.Color;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+
+//         //JFrame = a GUI window to add components to 
+
+//         JFrame frame = new JFrame(); //creates a frame
+//         frame.setTitle("Katherine Maegan"); //sets title of frame
+//         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //exit out of application
+//         frame.setResizable(false); // prevent frame from being resized
+//         frame.setSize(420,420); //sets the x-dimension and y-dimension of frame
+//         frame.setVisible(true); //make frame visible 
+
+     
+//        ImageIcon image = new ImageIcon("C:\\Users\\EDE\\OneDrive\\Pictures\\Katherine Maegan Espinosa\\logo1.png"); //create an ImageIcon
+//        frame.setIconImage(image.getImage()); // change icon of frame
+//        frame.getContentPane().setBackground(Color.PINK); //change color of background
+
+        MyFrame myFrame = new MyFrame();
+ }
+}
