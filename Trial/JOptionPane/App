@@ -1,0 +1,27 @@
+package JOptionPane;
+import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
+
+public class App {
+    public static void main(String[] args){
+
+        //JOptionPane = pop up a standard dialog box that prompts users for a value 
+        //              or informs them of something
+
+
+        // JOptionPane.showMessageDialog(null, "Today is February 25, 2023", "Plain Message", JOptionPane.PLAIN_MESSAGE);
+        // JOptionPane.showMessageDialog(null, "Today is People Power Revolution", "Information Message", JOptionPane.INFORMATION_MESSAGE);
+        // JOptionPane.showMessageDialog(null, "Are you okay?", "Question Message", JOptionPane.QUESTION_MESSAGE);
+        // JOptionPane.showMessageDialog(null, "Warning: Your wallet is empty", "Warning Message", JOptionPane.WARNING_MESSAGE);
+        // JOptionPane.showMessageDialog(null, "This dialog box is an error", "Error Message", JOptionPane.ERROR_MESSAGE);
+
+        // JOptionPane.showConfirmDialog(null, "Can you still fight?", "Confirm Dialog Box", JOptionPane.YES_NO_CANCEL_OPTION);
+        // String cravings = JOptionPane.showInputDialog("What are you craving right now?: ");
+        // System.out.println("I am craving, "+ cravings);
+
+        String [] responses = {"Yes, I can", "AJAAAA!", "Yes, but I need to rest"}; //make ur own response button
+        ImageIcon icon = new ImageIcon("hearteu.jpg"); //replace image icon of the Information Message
+        JOptionPane.showOptionDialog(null, "You can do it!", "Motivation", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE, icon, responses, 0);
+    }
+    
+}
