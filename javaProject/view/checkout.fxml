@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="797.0" prefWidth="1350.0" style="-fx-background-color: c9e4de;" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CheckoutController">
+   <children>
+      <ScrollPane layoutX="67.0" layoutY="143.0" prefHeight="600.0" prefWidth="587.0" styleClass="transparent" stylesheets="@../style.css">
+         <content>
+            <AnchorPane prefHeight="4351.0" prefWidth="569.0" style="-fx-border-color: transparent; -fx-opacity: 50; -fx-background-color: c9e4de;" styleClass="transparent" stylesheets="@../style.css">
+               <children>
+                  <VBox layoutX="16.0" prefHeight="4342.0" prefWidth="535.0">
+                     <children>
+                        <Pane fx:id="pane1" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="img1" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/cheesecake.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="name1" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="price1" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox1" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                        </Pane>
+                        <Pane fx:id="pane2" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="img2" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/chocochip.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="name2" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="price2" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox2" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane3" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="img3" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/churros.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="name3" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="price3" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox3" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane4" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="img4" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/cinnamonrolls.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="name4" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="price4" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox4" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane5" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="img5" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/smores.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="name5" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="price5" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox5" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane6" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="img6" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/bavarian.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="name6" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="price6" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox6" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane7" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="img7" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/bakingpanandmolds.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="name7" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="price7" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox7" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane8" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="img8" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/mixingbowl.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="name8" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="price8" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox8" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane9" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="img9" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/pipingbagandtips.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="name9" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="price9" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox9" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane10" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="img10" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/cakestand.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="name10" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="price10" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox10" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane11" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="img11" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/microwaveoven.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="name11" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="price11" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox11" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane12" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="img12" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/standmixer.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="name12" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="price12" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox12" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane13" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="cake1" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/blackforest.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cakename1" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cakeprice1" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox13" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane14" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="cake2" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/cheesecake.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cakename2" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cakeprice2" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox14" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane15" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="cake3" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/chocomud.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cakename3" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cakeprice3" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox15" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane16" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="cake4" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/coffeecake.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cakename4" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cakeprice4" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox16" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane17" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="cake5" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/redvelvet.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cakename5" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cakeprice5" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox17" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane18" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="cake6" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/tiramisu.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cakename6" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cakeprice6" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox18" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane19" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="cookie1" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/chocochip.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cookiename1" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookieprice1" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox19" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane20" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="cookie2" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/cremebrulee.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cookiename2" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookieprice2" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox20" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane21" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="cookie3" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/fortune.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cookiename3" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookieprice3" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox21" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane22" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="cookie4" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/oatmeal.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cookiename4" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookieprice4" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox22" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane23" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="cookie5" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/peanutbutterblossom.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cookiename5" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookieprice5" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox23" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane24" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="cookie6" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/smores.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cookiename6" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookieprice6" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox24" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane25" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="donut1" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/bavarian.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="donutname1" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="donutprice1" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox25" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane26" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="donut2" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/chocofrost.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="donutname2" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="donutprice2" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox26" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane27" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="donut3" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/churros.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="donutname3" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="donutprice3" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox27" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane28" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="donut4" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/cinnamontwist.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="donutname4" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="donutprice4" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox28" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane29" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="donut5" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/glazed.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="donutname5" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="donutprice5" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox29" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane30" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="donut6" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/peanutbutter.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="donutname6" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="donutprice6" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox30" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane31" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="pastry1" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/bibingka.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="pastryname1" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pastryprice1" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox31" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane32" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="pastry2" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/cinnamonrolls.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="pastryname2" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pastryprice2" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox32" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane33" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="pastry3" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/croissant.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="pastryname3" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pastryprice3" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox33" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane34" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="pastry4" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/eggtart.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="pastryname4" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pastryprice4" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox34" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane35" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="pastry5" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/empanada.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="patsryname5" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pastryprice5" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox35" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane36" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="pastry6" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/pandesal.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="pastryname6" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pastryprice6" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox36" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane37" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="tool1" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/bakingpanandmolds.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="toolname1" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="toolprice1" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox37" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane38" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="tool2" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/measuringcups.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="toolname2" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="toolprice2" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox38" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane39" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="tool3" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/measuringspoons.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="toolname3" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="toolprice3" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox39" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane40" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="tool4" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/mixingbowl.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="toolname4" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="toolprice4" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox40" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane41" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="tool5" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/pipingbagandtips.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="toolname5" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="toolprice5" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox41" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane42" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="tool6" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/siliconespatulas.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="toolname6" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="toolprice6" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox42" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane43" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="equip1" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/cakestand.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="equipname1" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="equipPrice1" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox43" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane44" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="equip2" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/foodprocessor.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="equipname2" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="equipPrice2" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox44" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane45" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="equip3" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/handmixer.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="equipname3" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="equipPrice3" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox45" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane46" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="equip4" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/microwaveoven.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="equipname4" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="equipPrice4" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox46" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane47" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="equip5" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/standmixer.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="equipname5" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="equipPrice5" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox47" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                        <Pane fx:id="pane48" prefHeight="85.0" prefWidth="491.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fx:id="equip6" fitHeight="52.0" fitWidth="131.0" layoutX="28.0" layoutY="14.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/weighingscale.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="equipname6" layoutX="192.0" layoutY="14.0" prefHeight="17.0" prefWidth="201.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="Britannic Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="equipPrice6" layoutX="416.0" layoutY="15.0" prefHeight="17.0" prefWidth="61.0" text="300.00">
+                                 <font>
+                                    <Font name="Britannic Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <ChoiceBox fx:id="choicebox48" layoutX="192.0" layoutY="40.0" prefHeight="25.0" prefWidth="283.0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Pane>
+                     </children>
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Pane layoutX="750.0" layoutY="119.0" prefHeight="634.0" prefWidth="526.0" style="-fx-background-color: white; -fx-background-radius: 30;">
+         <children>
+            <ImageView fitHeight="132.0" fitWidth="398.0" layoutX="64.0" layoutY="41.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/Sweet%20Tuesdays.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="76.0" layoutY="192.0" text="Total" textFill="#4a4141">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="74.0" layoutY="233.0" text="Sub-Total:" textFill="#4a4141">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="checkoutbutton" layoutX="339.0" layoutY="334.0" mnemonicParsing="false" onAction="#checkout" style="-fx-background-color: C9E4DE; -fx-background-radius: 30;" text="CHECKOUT">
+               <font>
+                  <Font name="Britannic Bold" size="20.0" />
+               </font>
+            </Button>
+            <Label fx:id="total" layoutX="407.0" layoutY="233.0" text="15.00" textFill="#4a4141">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="checkoutbutton1" layoutX="205.0" layoutY="334.0" mnemonicParsing="false" onAction="#checkout" prefHeight="39.0" prefWidth="119.0" style="-fx-background-color: C6DEF1; -fx-background-radius: 30;" text="BACK">
+               <font>
+                  <Font name="Britannic Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="checkoutbutton11" layoutX="65.0" layoutY="334.0" mnemonicParsing="false" onAction="#checkout" prefHeight="39.0" prefWidth="119.0" style="-fx-background-color: F2C6DE; -fx-background-radius: 30;" text="CANCEL">
+               <font>
+                  <Font name="Britannic Bold" size="20.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="201.0" fitWidth="398.0" layoutX="62.0" layoutY="401.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/ads.gif" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Label alignment="CENTER" layoutX="107.0" layoutY="76.0" prefHeight="60.0" prefWidth="531.0" text="Ready to take the sweetness Home?">
+         <font>
+            <Font name="Harlow Solid Italic" size="35.0" />
+         </font>
+      </Label>
+      <HBox layoutX="-4.0" layoutY="-14.0" prefHeight="90.0" prefWidth="1352.0">
+         <children>
+            <Pane prefHeight="90.0" prefWidth="1359.0" styleClass="white-background" stylesheets="@../style.css">
+               <children>
+                  <ImageView fitHeight="72.0" fitWidth="68.0" layoutX="116.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/STLogo.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="177.0" layoutY="18.0" prefHeight="68.0" prefWidth="199.0" text="Sweet Tuesdays" textAlignment="CENTER" textFill="#ff83c7">
+                     <font>
+                        <Font name="Harlow Solid Italic" size="28.0" />
+                     </font>
+                  </Label>
+                  <Line endX="-116.0" endY="37.0" layoutX="503.0" layoutY="45.0" startX="-116.0" startY="-14.0" />
+                  <Label layoutX="401.0" layoutY="16.0" prefHeight="80.0" prefWidth="163.0" text="Checkout" textFill="#7252a4">
+                     <font>
+                        <Font name="Century Gothic" size="23.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children></HBox>
+   </children>
+</AnchorPane>

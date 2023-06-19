@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="797.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DonutController">
+   <top>
+      <HBox prefHeight="46.0" prefWidth="1315.0" spacing="20.0" style="-fx-background-color: WHITE;" BorderPane.alignment="CENTER_RIGHT">
+         <children>
+            <Label alignment="CENTER" prefHeight="51.0" prefWidth="221.0" text="Sweet Tuesdays" textFill="#ff83c7">
+               <font>
+                  <Font name="Harlow Solid Italic" size="30.0" />
+               </font>
+            </Label>
+            <HBox alignment="BOTTOM_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="44.0" prefWidth="341.0">
+               <children>
+                  <TextField prefHeight="33.0" prefWidth="313.0" promptText="Search Here                                                                   🔍" style="-fx-background-radius: 20;" />
+               </children>
+            </HBox>
+            <Pane prefHeight="51.0" prefWidth="198.0" HBox.hgrow="ALWAYS" />
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="TOP_CENTER" prefHeight="44.0" prefWidth="202.0" text="Aster Austin" textFill="#e8aa82">
+                     <font>
+                        <Font name="Harlow Solid Italic" size="23.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="45.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/profilepic.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="250.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="329.0" prefWidth="250.0" spacing="10.0">
+               <children>
+                  <Label layoutX="20.0" layoutY="57.0" prefHeight="44.0" prefWidth="202.0" text="Browse">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="59.0" prefHeight="50.0" prefWidth="200.0" styleClass="mouse-moved" stylesheets="@../../trial3/src/style.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Home.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="homeButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="79.0" style="-fx-background-color: transparent;" text="Home">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <Label prefHeight="44.0" prefWidth="202.0" text="Sweet Options">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" styleClass="mouse-moved" stylesheets="@../../trial3/src/style.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/cake.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="cakeButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="82.0" style="-fx-background-color: transparent;" text="Cakes">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" styleClass="mouse-moved" stylesheets="@../../trial3/src/style.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/cookie.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="cookieButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: transparent;" text="Cookies">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" stylesheets="@../../trial3/src/style.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/donut.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="donutButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: transparent;" styleClass="mouse-moved" stylesheets="@../style.css" text="Donuts">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <styleClass>
+                        <String fx:value="mouse-moved" />
+                        <String fx:value="selected" />
+                     </styleClass>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="10.0" layoutY="169.0" prefHeight="50.0" prefWidth="200.0" styleClass="mouse-moved" stylesheets="@../../trial3/src/style.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/pastry.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="pastryButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: transparent;" text="Pastries">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+               </children>
+            </VBox>
+            <VBox layoutX="10.0" layoutY="10.0" prefHeight="146.0" prefWidth="250.0">
+               <children>
+                  <Label prefHeight="44.0" prefWidth="202.0" text="Tools and Equipments">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" styleClass="mouse-moved" stylesheets="@../../trial3/src/style.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/tool.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="toolButton" graphicTextGap="0.0" lineSpacing="0.5" mnemonicParsing="false" prefHeight="33.0" prefWidth="170.0" style="-fx-background-color: transparent;" text="Baking Tools">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" styleClass="mouse-moved" stylesheets="@../../trial3/src/style.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/equipment.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="equipButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="169.0" style="-fx-background-color: transparent;" text="Baking Equipment">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+               </children>
+            </VBox>
+            <VBox layoutX="10.0" layoutY="288.0" prefHeight="198.0" prefWidth="250.0">
+               <children>
+                  <Label prefHeight="44.0" prefWidth="202.0" text="Others">
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" styleClass="mouse-moved" stylesheets="@../../trial3/src/style.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/favorite.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="faveButton" mnemonicParsing="false" prefHeight="33.0" prefWidth="107.0" style="-fx-background-color: transparent;" text="Favorites">
+                           <font>
+                              <Font name="Berlin Sans FB" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <Button fx:id="cartbasket" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#gotocart" prefHeight="33.0" prefWidth="147.0" style="-fx-background-color: faedcb; -fx-background-radius: 20;" styleClass="mouse-moved" stylesheets="@../../trial3/src/style.css" text="Cart Basket" textAlignment="CENTER">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="50.0" right="20.0" top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Berlin Sans FB" size="18.0" />
+                     </font>
+                  </Button>
+                  <Separator prefWidth="200.0" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <ScrollPane prefHeight="828.0" prefWidth="1105.0" styleClass="transparent" stylesheets="@../../trial3/src/style.css" BorderPane.alignment="CENTER">
+        <content>
+          <AnchorPane maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="815.0" prefWidth="1085.0" style="-fx-background-color: f2c6de;">
+               <children>
+                  <Pane layoutX="19.0" layoutY="88.0" prefHeight="337.0" prefWidth="332.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                     <children>
+                        <ImageView fx:id="donut1" fitHeight="161.0" fitWidth="290.0" layoutX="22.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/bavarian.png" />
+                           </image></ImageView>
+                        <Label fx:id="donutname1" layoutX="30.0" layoutY="201.0" text="Bavarian Cream Filled">
+                           <font>
+                              <Font name="Britannic Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="donutprice1" layoutX="30.0" layoutY="225.0" prefHeight="25.0" prefWidth="68.0" text="300.00">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="donutCart1" layoutX="180.0" layoutY="275.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="123.0" style="-fx-background-color: c9e4de; -fx-background-radius: 20;" text="Add to Basket">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Button>
+                        <Button fx:id="donutFave1" layoutX="32.0" layoutY="275.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="123.0" style="-fx-background-color: dbcdf0; -fx-background-radius: 20;" text="Add to Favorites">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Label layoutX="26.0" layoutY="40.0" prefHeight="32.0" prefWidth="281.0" text="Choose your Cookie!">
+                     <font>
+                        <Font name="Berlin Sans FB" size="29.0" />
+                     </font>
+                  </Label>
+                  <Pane layoutX="371.0" layoutY="88.0" prefHeight="336.0" prefWidth="338.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                     <children>
+                        <ImageView fx:id="donut2" fitHeight="161.0" fitWidth="290.0" layoutX="22.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/chocofrost.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="donutname2" layoutX="30.0" layoutY="201.0" text="Chocolate Frosted Donut">
+                           <font>
+                              <Font name="Britannic Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="donutprice2" layoutX="30.0" layoutY="225.0" prefHeight="25.0" prefWidth="68.0" text="300.00">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="donutCart2" layoutX="180.0" layoutY="275.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="123.0" style="-fx-background-color: c9e4de; -fx-background-radius: 20;" text="Add to Basket">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="donutFave2" layoutX="32.0" layoutY="275.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="123.0" style="-fx-background-color: dbcdf0; -fx-background-radius: 20;" text="Add to Favorites">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="730.0" layoutY="88.0" prefHeight="337.0" prefWidth="332.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                     <children>
+                        <ImageView fx:id="donut3" fitHeight="161.0" fitWidth="290.0" layoutX="22.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/churros.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="donutname3" layoutX="30.0" layoutY="201.0" text="Churros">
+                           <font>
+                              <Font name="Britannic Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="donutprice3" layoutX="30.0" layoutY="225.0" prefHeight="25.0" prefWidth="68.0" text="300.00">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="donutCart3" layoutX="180.0" layoutY="275.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="123.0" style="-fx-background-color: c9e4de; -fx-background-radius: 20;" text="Add to Basket">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="donutFave3" layoutX="32.0" layoutY="275.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="123.0" style="-fx-background-color: dbcdf0; -fx-background-radius: 20;" text="Add to Favorites">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="19.0" layoutY="451.0" prefHeight="337.0" prefWidth="332.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                     <children>
+                        <ImageView fx:id="donut4" fitHeight="161.0" fitWidth="290.0" layoutX="22.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/cinnamontwist.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="donutname4" layoutX="30.0" layoutY="201.0" text="Cinnamon Twist">
+                           <font>
+                              <Font name="Britannic Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="donutprice4" layoutX="30.0" layoutY="225.0" prefHeight="25.0" prefWidth="68.0" text="300.00">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="donutCart4" layoutX="180.0" layoutY="275.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="123.0" style="-fx-background-color: c9e4de; -fx-background-radius: 20;" text="Add to Basket">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="donutFave4" layoutX="32.0" layoutY="275.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="123.0" style="-fx-background-color: dbcdf0; -fx-background-radius: 20;" text="Add to Favorites">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="371.0" layoutY="450.0" prefHeight="338.0" prefWidth="338.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                     <children>
+                        <ImageView fx:id="donut5" fitHeight="161.0" fitWidth="290.0" layoutX="22.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/glazed.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="donutname5" layoutX="30.0" layoutY="201.0" text="Glazed Donuts">
+                           <font>
+                              <Font name="Britannic Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="donutprice5" layoutX="30.0" layoutY="225.0" prefHeight="25.0" prefWidth="68.0" text="300.00">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="donutCart5" layoutX="180.0" layoutY="275.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="123.0" style="-fx-background-color: c9e4de; -fx-background-radius: 20;" text="Add to Basket">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="donutFave5" layoutX="32.0" layoutY="275.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="123.0" style="-fx-background-color: dbcdf0; -fx-background-radius: 20;" text="Add to Favorites">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="730.0" layoutY="451.0" prefHeight="337.0" prefWidth="332.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+                     <children>
+                        <ImageView fx:id="donut6" fitHeight="161.0" fitWidth="290.0" layoutX="22.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/peanutbutter.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="donutname6" layoutX="30.0" layoutY="201.0" text="Peanut Butter Donuts">
+                           <font>
+                              <Font name="Britannic Bold" size="23.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="donutprice6" layoutX="30.0" layoutY="225.0" prefHeight="25.0" prefWidth="68.0" text="300.00">
+                           <font>
+                              <Font name="Bodoni MT Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="donutCart6" layoutX="180.0" layoutY="275.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="123.0" style="-fx-background-color: c9e4de; -fx-background-radius: 20;" text="Add to Basket">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="donutFave6" layoutX="32.0" layoutY="275.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="123.0" style="-fx-background-color: dbcdf0; -fx-background-radius: 20;" text="Add to Favorites">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </center>
+</BorderPane>
