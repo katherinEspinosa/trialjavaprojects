@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="764.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReceiptController">
+   <children>
+      <ImageView fitHeight="58.0" fitWidth="242.0" layoutX="43.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/SweetTuesdayBLACK.png" />
+         </image>
+      </ImageView>
+      <Line endX="534.0" layoutX="156.0" layoutY="79.0" startX="-100.0" />
+      <Text layoutX="56.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QTY">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="205.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ITEM NAME" wrappingWidth="78.9697265625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="415.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRICE" wrappingWidth="78.9697265625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="608.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AMOUNT" wrappingWidth="78.9697265625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="----------------------------------------------------------------------------------------" wrappingWidth="1077.076171875">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Text>
+      <Label fx:id="qty1" layoutX="56.0" layoutY="135.0" text="qty1" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product1" layoutX="205.0" layoutY="135.0" prefHeight="15.0" prefWidth="140.0" text="product1" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price1" layoutX="405.0" layoutY="134.0" prefHeight="15.0" prefWidth="68.0" text="price1" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount1" layoutX="608.0" layoutY="134.0" prefHeight="15.0" prefWidth="68.0" text="amount1" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty2" layoutX="56.0" layoutY="153.0" text="qty2" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product2" layoutX="205.0" layoutY="153.0" prefHeight="15.0" prefWidth="140.0" text="product2" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price2" layoutX="405.0" layoutY="152.0" prefHeight="15.0" prefWidth="68.0" text="price2" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount2" layoutX="608.0" layoutY="152.0" prefHeight="15.0" prefWidth="68.0" text="amount2" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty3" layoutX="56.0" layoutY="170.0" text="qty3" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product3" layoutX="205.0" layoutY="170.0" prefHeight="15.0" prefWidth="140.0" text="product3" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price3" layoutX="404.0" layoutY="169.0" prefHeight="15.0" prefWidth="68.0" text="price3" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount3" layoutX="608.0" layoutY="169.0" prefHeight="15.0" prefWidth="68.0" text="amount3" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty4" layoutX="56.0" layoutY="187.0" text="qty4" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product4" layoutX="205.0" layoutY="187.0" prefHeight="15.0" prefWidth="140.0" text="product4" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price4" layoutX="404.0" layoutY="186.0" prefHeight="15.0" prefWidth="68.0" text="price4" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount4" layoutX="608.0" layoutY="186.0" prefHeight="15.0" prefWidth="68.0" text="amount4" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty5" layoutX="56.0" layoutY="204.0" text="qty5" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product5" layoutX="205.0" layoutY="204.0" prefHeight="15.0" prefWidth="140.0" text="product5" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price5" layoutX="404.0" layoutY="203.0" prefHeight="15.0" prefWidth="68.0" text="price5" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount5" layoutX="608.0" layoutY="203.0" prefHeight="15.0" prefWidth="68.0" text="amount5" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty6" layoutX="56.0" layoutY="221.0" text="qty6" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product6" layoutX="205.0" layoutY="221.0" prefHeight="15.0" prefWidth="140.0" text="product6" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price6" layoutX="404.0" layoutY="220.0" prefHeight="15.0" prefWidth="68.0" text="price6" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount6" layoutX="608.0" layoutY="220.0" prefHeight="15.0" prefWidth="68.0" text="amount6" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty7" layoutX="56.0" layoutY="238.0" text="qty7" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product7" layoutX="205.0" layoutY="238.0" prefHeight="15.0" prefWidth="140.0" text="product7" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price7" layoutX="404.0" layoutY="237.0" prefHeight="15.0" prefWidth="68.0" text="price7" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount7" layoutX="608.0" layoutY="237.0" prefHeight="15.0" prefWidth="68.0" text="amount7" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty8" layoutX="56.0" layoutY="255.0" text="qty8" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product8" layoutX="205.0" layoutY="255.0" prefHeight="15.0" prefWidth="140.0" text="product8" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price8" layoutX="404.0" layoutY="254.0" prefHeight="15.0" prefWidth="68.0" text="price8" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount8" layoutX="608.0" layoutY="254.0" prefHeight="15.0" prefWidth="68.0" text="amount8" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty9" layoutX="56.0" layoutY="272.0" text="qty9" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product9" layoutX="205.0" layoutY="272.0" prefHeight="15.0" prefWidth="140.0" text="product9" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price9" layoutX="404.0" layoutY="271.0" prefHeight="15.0" prefWidth="68.0" text="price9" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount9" layoutX="608.0" layoutY="271.0" prefHeight="15.0" prefWidth="68.0" text="amount9" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty10" layoutX="56.0" layoutY="289.0" prefHeight="15.0" prefWidth="29.0" text="qty10" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product10" layoutX="205.0" layoutY="289.0" prefHeight="15.0" prefWidth="140.0" text="product10" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price10" layoutX="404.0" layoutY="288.0" prefHeight="15.0" prefWidth="68.0" text="price10" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount10" layoutX="608.0" layoutY="288.0" prefHeight="15.0" prefWidth="68.0" text="amount10" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty11" layoutX="56.0" layoutY="306.0" prefHeight="15.0" prefWidth="29.0" text="qty11" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product11" layoutX="205.0" layoutY="306.0" prefHeight="15.0" prefWidth="140.0" text="product11" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price11" layoutX="404.0" layoutY="305.0" prefHeight="15.0" prefWidth="68.0" text="price11" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount11" layoutX="608.0" layoutY="305.0" prefHeight="15.0" prefWidth="68.0" text="amount11" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty12" layoutX="56.0" layoutY="323.0" prefHeight="15.0" prefWidth="29.0" text="qty12" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product12" layoutX="205.0" layoutY="323.0" prefHeight="15.0" prefWidth="140.0" text="product12" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price12" layoutX="404.0" layoutY="322.0" prefHeight="15.0" prefWidth="68.0" text="price12" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount12" layoutX="608.0" layoutY="322.0" prefHeight="15.0" prefWidth="68.0" text="amount12" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty13" layoutX="56.0" layoutY="340.0" prefHeight="15.0" prefWidth="29.0" text="qty13" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product13" layoutX="205.0" layoutY="340.0" prefHeight="15.0" prefWidth="140.0" text="product13" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price13" layoutX="404.0" layoutY="339.0" prefHeight="15.0" prefWidth="68.0" text="price13" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount13" layoutX="608.0" layoutY="339.0" prefHeight="15.0" prefWidth="68.0" text="amount13" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty14" layoutX="56.0" layoutY="357.0" prefHeight="15.0" prefWidth="29.0" text="qty14" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product14" layoutX="205.0" layoutY="357.0" prefHeight="15.0" prefWidth="140.0" text="product14" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price14" layoutX="404.0" layoutY="356.0" prefHeight="15.0" prefWidth="68.0" text="price14" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount14" layoutX="608.0" layoutY="356.0" prefHeight="15.0" prefWidth="68.0" text="amount14" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty15" layoutX="56.0" layoutY="374.0" prefHeight="15.0" prefWidth="29.0" text="qty15" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product15" layoutX="205.0" layoutY="374.0" prefHeight="15.0" prefWidth="140.0" text="product15" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price15" layoutX="404.0" layoutY="373.0" prefHeight="15.0" prefWidth="68.0" text="price15" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount15" layoutX="608.0" layoutY="373.0" prefHeight="15.0" prefWidth="68.0" text="amount15" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty16" layoutX="56.0" layoutY="391.0" prefHeight="15.0" prefWidth="29.0" text="qty16" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product16" layoutX="205.0" layoutY="391.0" prefHeight="15.0" prefWidth="140.0" text="product16" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price16" layoutX="404.0" layoutY="390.0" prefHeight="15.0" prefWidth="68.0" text="price16" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount16" layoutX="608.0" layoutY="390.0" prefHeight="15.0" prefWidth="68.0" text="amount16" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty17" layoutX="56.0" layoutY="408.0" prefHeight="15.0" prefWidth="29.0" text="qty17" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product17" layoutX="205.0" layoutY="408.0" prefHeight="15.0" prefWidth="140.0" text="product17" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price17" layoutX="404.0" layoutY="407.0" prefHeight="15.0" prefWidth="68.0" text="price17" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount17" layoutX="608.0" layoutY="407.0" prefHeight="15.0" prefWidth="68.0" text="amount17" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty18" layoutX="56.0" layoutY="425.0" prefHeight="15.0" prefWidth="29.0" text="qty18" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product18" layoutX="205.0" layoutY="425.0" prefHeight="15.0" prefWidth="140.0" text="product18" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price18" layoutX="404.0" layoutY="424.0" prefHeight="15.0" prefWidth="68.0" text="price18" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount18" layoutX="608.0" layoutY="424.0" prefHeight="15.0" prefWidth="68.0" text="amount18" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty19" layoutX="56.0" layoutY="442.0" prefHeight="15.0" prefWidth="29.0" text="qty19" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product19" layoutX="205.0" layoutY="442.0" prefHeight="15.0" prefWidth="140.0" text="product19" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price19" layoutX="404.0" layoutY="441.0" prefHeight="15.0" prefWidth="68.0" text="price19" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount19" layoutX="608.0" layoutY="441.0" prefHeight="15.0" prefWidth="68.0" text="amount19" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty20" layoutX="56.0" layoutY="459.0" prefHeight="15.0" prefWidth="29.0" text="qty20" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product20" layoutX="205.0" layoutY="459.0" prefHeight="15.0" prefWidth="140.0" text="product20" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price20" layoutX="404.0" layoutY="458.0" prefHeight="15.0" prefWidth="68.0" text="price20" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount20" layoutX="608.0" layoutY="458.0" prefHeight="15.0" prefWidth="68.0" text="amount20" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty21" layoutX="56.0" layoutY="476.0" prefHeight="15.0" prefWidth="29.0" text="qty21" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product21" layoutX="205.0" layoutY="476.0" prefHeight="15.0" prefWidth="140.0" text="product21" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price21" layoutX="404.0" layoutY="475.0" prefHeight="15.0" prefWidth="68.0" text="price21" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount21" layoutX="608.0" layoutY="475.0" prefHeight="15.0" prefWidth="68.0" text="amount21" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty22" layoutX="56.0" layoutY="493.0" prefHeight="15.0" prefWidth="29.0" text="qty22" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product22" layoutX="205.0" layoutY="493.0" prefHeight="15.0" prefWidth="140.0" text="product22" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price22" layoutX="404.0" layoutY="492.0" prefHeight="15.0" prefWidth="68.0" text="price22" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount22" layoutX="608.0" layoutY="492.0" prefHeight="15.0" prefWidth="68.0" text="amount22" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty23" layoutX="56.0" layoutY="510.0" prefHeight="15.0" prefWidth="29.0" text="qty23" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product23" layoutX="205.0" layoutY="510.0" prefHeight="15.0" prefWidth="140.0" text="product23" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price23" layoutX="404.0" layoutY="509.0" prefHeight="15.0" prefWidth="68.0" text="price23" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount23" layoutX="608.0" layoutY="509.0" prefHeight="15.0" prefWidth="68.0" text="amount23" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty24" layoutX="56.0" layoutY="527.0" prefHeight="15.0" prefWidth="29.0" text="qty24" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product24" layoutX="205.0" layoutY="527.0" prefHeight="15.0" prefWidth="140.0" text="product24" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price24" layoutX="404.0" layoutY="526.0" prefHeight="15.0" prefWidth="68.0" text="price24" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount24" layoutX="608.0" layoutY="526.0" prefHeight="15.0" prefWidth="68.0" text="amount24" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty25" layoutX="56.0" layoutY="544.0" prefHeight="15.0" prefWidth="29.0" text="qty25" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product25" layoutX="205.0" layoutY="544.0" prefHeight="15.0" prefWidth="140.0" text="product25" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price25" layoutX="404.0" layoutY="543.0" prefHeight="15.0" prefWidth="68.0" text="price25" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount25" layoutX="608.0" layoutY="543.0" prefHeight="15.0" prefWidth="68.0" text="amount25" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty26" layoutX="56.0" layoutY="561.0" prefHeight="15.0" prefWidth="29.0" text="qty26" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product26" layoutX="205.0" layoutY="561.0" prefHeight="15.0" prefWidth="140.0" text="product26" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price26" layoutX="404.0" layoutY="560.0" prefHeight="15.0" prefWidth="68.0" text="price26" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount26" layoutX="608.0" layoutY="560.0" prefHeight="15.0" prefWidth="68.0" text="amount26" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty27" layoutX="56.0" layoutY="578.0" prefHeight="15.0" prefWidth="29.0" text="qty27" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product27" layoutX="205.0" layoutY="578.0" prefHeight="15.0" prefWidth="140.0" text="product27" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price27" layoutX="404.0" layoutY="577.0" prefHeight="15.0" prefWidth="68.0" text="price27" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount27" layoutX="608.0" layoutY="577.0" prefHeight="15.0" prefWidth="68.0" text="amount27" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty28" layoutX="56.0" layoutY="595.0" prefHeight="15.0" prefWidth="29.0" text="qty28" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product28" layoutX="205.0" layoutY="595.0" prefHeight="15.0" prefWidth="140.0" text="product28" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price28" layoutX="404.0" layoutY="594.0" prefHeight="15.0" prefWidth="68.0" text="price28" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount28" layoutX="608.0" layoutY="594.0" prefHeight="15.0" prefWidth="68.0" text="amount28" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty29" layoutX="56.0" layoutY="612.0" prefHeight="15.0" prefWidth="29.0" text="qty29" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product29" layoutX="205.0" layoutY="612.0" prefHeight="15.0" prefWidth="140.0" text="product29" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price29" layoutX="404.0" layoutY="611.0" prefHeight="15.0" prefWidth="68.0" text="price29" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount29" layoutX="608.0" layoutY="611.0" prefHeight="15.0" prefWidth="68.0" text="amount29" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty30" layoutX="56.0" layoutY="629.0" prefHeight="15.0" prefWidth="29.0" text="qty30" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product30" layoutX="205.0" layoutY="629.0" prefHeight="15.0" prefWidth="140.0" text="product30" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price30" layoutX="404.0" layoutY="628.0" prefHeight="15.0" prefWidth="68.0" text="price30" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount30" layoutX="608.0" layoutY="628.0" prefHeight="15.0" prefWidth="68.0" text="amount30" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty31" layoutX="56.0" layoutY="646.0" prefHeight="15.0" prefWidth="29.0" text="qty31" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product31" layoutX="205.0" layoutY="646.0" prefHeight="15.0" prefWidth="140.0" text="product31" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price31" layoutX="404.0" layoutY="645.0" prefHeight="15.0" prefWidth="68.0" text="price31" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount31" layoutX="608.0" layoutY="645.0" prefHeight="15.0" prefWidth="68.0" text="amount31" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty32" layoutX="56.0" layoutY="663.0" prefHeight="15.0" prefWidth="29.0" text="qty32" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="product32" layoutX="205.0" layoutY="663.0" prefHeight="15.0" prefWidth="140.0" text="product32" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price32" layoutX="404.0" layoutY="662.0" prefHeight="15.0" prefWidth="68.0" text="price32" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount32" layoutX="608.0" layoutY="662.0" prefHeight="15.0" prefWidth="68.0" text="amount32" visible="false">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Text layoutX="774.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAY TOTAL: " wrappingWidth="81.59912109375">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Line endX="271.0" layoutX="857.0" layoutY="256.0" startX="-100.0" />
+      <Line endX="-119.5" endY="31.009765625" layoutX="876.0" layoutY="257.0" startX="-119.5" startY="-1.5" />
+      <Line endX="271.0" layoutX="857.0" layoutY="288.0" startX="-100.0" />
+      <Line endX="-119.5" endY="31.009765625" layoutX="1247.0" layoutY="257.0" startX="-119.5" startY="-1.5" />
+      <Label fx:id="total" layoutX="1075.0" layoutY="263.0">
+         <font>
+            <Font name="Monospaced Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="753.0" layoutY="72.0" prefHeight="36.0" prefWidth="392.0" text="THANK YOU FOR PURCHASING AT">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="144.0" fitWidth="372.0" layoutX="757.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/SweetTuesdayBLACK.png" />
+         </image>
+      </ImageView>
+      <Line endX="-100.0" endY="658.0" layoutX="821.0" layoutY="78.0" startX="-100.0" />
+      <Button fx:id="homeButton" layoutX="751.0" layoutY="571.0" mnemonicParsing="false" onAction="#gotohome" prefHeight="58.0" prefWidth="195.0" style="-fx-border-color: BLACK;" stylesheets="@../style.css" text="CONTINUE SHOPPING" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="black-background" />
+            <String fx:value="mouse-movedBROWN" />
+         </styleClass>
+      </Button>
+      <Button fx:id="exitButton" layoutX="981.0" layoutY="571.0" mnemonicParsing="false" onAction="#exit" prefHeight="58.0" prefWidth="140.0" style="-fx-border-color: BLACK;" stylesheets="@../style.css" text="EXIT">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+         <styleClass>
+            <String fx:value="white-background" />
+            <String fx:value="mouse-movedLIGHTBROWN" />
+         </styleClass>
+      </Button>
+      <Text layoutX="284.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Purchase Receipt" wrappingWidth="195.1650390625">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

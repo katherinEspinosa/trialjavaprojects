@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="764.0" prefWidth="1190.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PastryController">
+   <children>
+      <Pane layoutX="-2.0" layoutY="-3.0" prefHeight="66.0" prefWidth="1193.0" style="-fx-background-color: #434344;" stylesheets="@../style.css">
+         <children>
+            <Button fx:id="cartButton" layoutX="1129.0" layoutY="13.0" mnemonicParsing="false" onAction="#gotocart" prefHeight="25.0" prefWidth="34.0" stylesheets="@../style.css">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/34.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <styleClass>
+                  <String fx:value="transparent" />
+                  <String fx:value="mouse-movedBROWN" />
+               </styleClass>
+            </Button>
+            <Button fx:id="creditButton" layoutX="982.0" layoutY="12.0" mnemonicParsing="false" onAction="#gotocredits" prefHeight="44.0" prefWidth="112.0" stylesheets="@../style.css" text="About Us" textFill="#dadada">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="transparent" />
+                  <String fx:value="mouse-movedBROWN" />
+               </styleClass>
+            </Button>
+            <Button fx:id="homeButton" layoutX="180.0" layoutY="12.0" mnemonicParsing="false" onAction="#gotohome" prefHeight="44.0" prefWidth="112.0" stylesheets="@../style.css" text="Home" textFill="#dadada">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="transparent" />
+                  <String fx:value="mouse-movedBROWN" />
+               </styleClass>
+            </Button>
+            <Button fx:id="cakeButton" layoutX="282.0" layoutY="12.0" mnemonicParsing="false" onAction="#gotocakes" prefHeight="44.0" prefWidth="112.0" stylesheets="@../style.css" text="Cakes" textFill="#dadada">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="transparent" />
+                  <String fx:value="mouse-movedBROWN" />
+               </styleClass>
+            </Button>
+            <Button fx:id="cookieButton" layoutX="387.0" layoutY="12.0" mnemonicParsing="false" onAction="#gotocookies" prefHeight="44.0" prefWidth="112.0" stylesheets="@../style.css" text="Cookies" textFill="#dadada">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="transparent" />
+                  <String fx:value="mouse-movedBROWN" />
+               </styleClass>
+            </Button>
+            <Button fx:id="donutButton" layoutX="491.0" layoutY="12.0" mnemonicParsing="false" onAction="#gotodonuts" prefHeight="44.0" prefWidth="112.0" stylesheets="@../style.css" text="Donuts" textFill="#dadada">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="transparent" />
+                  <String fx:value="mouse-movedBROWN" />
+               </styleClass>
+            </Button>
+            <Button fx:id="pastryButton" layoutX="597.0" layoutY="12.0" mnemonicParsing="false" onAction="#gotopastry" prefHeight="44.0" prefWidth="112.0" stylesheets="@../style.css" text="Pastries" textFill="#dadada">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="transparent" />
+                  <String fx:value="mouse-movedBROWN" />
+               </styleClass>
+            </Button>
+            <Button fx:id="toolButton" layoutX="700.0" layoutY="12.0" mnemonicParsing="false" onAction="#gototools" prefHeight="44.0" prefWidth="112.0" stylesheets="@../style.css" text="Tools" textFill="#dadada">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="transparent" />
+                  <String fx:value="mouse-movedBROWN" />
+               </styleClass>
+            </Button>
+            <Button fx:id="equipButton" layoutX="812.0" layoutY="11.0" mnemonicParsing="false" onAction="#gotoequip" prefHeight="44.0" prefWidth="131.0" stylesheets="@../style.css" text="Equipment" textFill="#dadada">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="transparent" />
+                  <String fx:value="mouse-movedBROWN" />
+               </styleClass>
+            </Button>
+            <Button fx:id="faveButton" layoutX="1086.0" layoutY="13.0" mnemonicParsing="false" onAction="#gotofaves" prefHeight="42.0" prefWidth="50.0" stylesheets="@../style.css">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/37.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <styleClass>
+                  <String fx:value="transparent" />
+                  <String fx:value="mouse-movedBROWN" />
+               </styleClass>
+            </Button>
+            <ImageView fitHeight="44.0" fitWidth="154.0" layoutX="26.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Sweet%20Tuesday.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ScrollPane layoutX="1.0" layoutY="61.0" prefHeight="748.0" prefWidth="1190.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="3100.0" prefWidth="1170.0">
+               <children>
+                  <Pane layoutY="-5.0" prefHeight="753.0" prefWidth="1180.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="697.0" fitWidth="1203.0" layoutX="-15.0" layoutY="56.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../images/10.png" />
+                           </image>
+                        </ImageView>
+                     </children></Pane>
+                  <Pane layoutX="2.0" layoutY="750.0" prefHeight="753.0" prefWidth="1188.0" style="-fx-background-color: white;">
+                     <children>
+                        <ImageView fitHeight="644.0" fitWidth="1145.0" layoutX="14.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/11.png" />
+                           </image>
+                        </ImageView>
+                     </children></Pane>
+                  <Pane layoutX="-16.0" layoutY="1503.0" prefHeight="552.0" prefWidth="612.0" style="-fx-background-color: black;">
+                     <children>
+                        <Label fx:id="pastryname1" layoutX="345.0" layoutY="152.0" prefHeight="57.0" prefWidth="214.0" text="Bibingka" textFill="WHITE">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <ImageView fx:id="pastry1" fitHeight="552.0" fitWidth="306.0" layoutX="15.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../images/bavarian.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="pastryprice1" layoutX="346.0" layoutY="213.0" prefHeight="33.0" prefWidth="277.0" text="300.00" textFill="WHITE">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="pastryCart1" layoutX="347.0" layoutY="329.0" mnemonicParsing="false" onAction="#buy" prefHeight="25.0" prefWidth="118.0" style="-fx-background-radius: 20;" stylesheets="@../style.css" text="BUY">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="mouse-movedYELLOW" />
+                              <String fx:value="white-background" />
+                           </styleClass>
+                        </Button>
+                        <Button fx:id="pastryFave1" layoutX="473.0" layoutY="329.0" mnemonicParsing="false" onAction="#fave" prefHeight="42.0" prefWidth="50.0" stylesheets="@../style.css">
+                           <styleClass>
+                              <String fx:value="transparent" />
+                              <String fx:value="mouse-movedBROWN" />
+                           </styleClass>
+                           <graphic>
+                              <ImageView fitHeight="42.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/favorite%20white.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="599.0" layoutY="1502.0" prefHeight="556.0" prefWidth="591.0" style="-fx-background-color: white;">
+                     <children>
+                        <ImageView fx:id="pastry2" fitHeight="553.0" fitWidth="313.0" layoutX="-3.0" layoutY="1.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../images/chocofrost.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="pastryname2" layoutX="327.0" layoutY="143.0" prefHeight="57.0" prefWidth="255.0" text="Cinnamon Roll">
+                           <font>
+                              <Font size="27.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="pastryprice2" layoutX="331.0" layoutY="199.0" prefHeight="45.0" prefWidth="119.0" text="300.00">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="pastryCart2" layoutX="336.0" layoutY="326.0" mnemonicParsing="false" onAction="#buy" prefHeight="25.0" prefWidth="118.0" style="-fx-background-radius: 20;" stylesheets="@../style.css" text="BUY" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="mouse-movedBROWN" />
+                              <String fx:value="black-background" />
+                           </styleClass>
+                        </Button>
+                        <Button fx:id="pastryFave2" layoutX="461.0" layoutY="323.0" mnemonicParsing="false" onAction="#fave" prefHeight="42.0" prefWidth="50.0" stylesheets="@../style.css">
+                           <styleClass>
+                              <String fx:value="transparent" />
+                              <String fx:value="mouse-movedLIGHTBROWN" />
+                           </styleClass>
+                           <graphic>
+                              <ImageView fitHeight="42.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/favorite.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="-8.0" layoutY="2058.0" prefHeight="552.0" prefWidth="606.0" style="-fx-background-color: white;">
+                     <children>
+                        <ImageView fx:id="pastry3" fitHeight="557.0" fitWidth="307.0" layoutX="6.0" layoutY="-4.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../images/churros.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="pastryname3" layoutX="336.0" layoutY="142.0" prefHeight="57.0" prefWidth="221.0" text="Croissant">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="pastryprice3" layoutX="340.0" layoutY="198.0" prefHeight="45.0" prefWidth="119.0" text="300.00">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="pastryCart3" layoutX="336.0" layoutY="303.0" mnemonicParsing="false" onAction="#buy" prefHeight="25.0" prefWidth="118.0" style="-fx-background-radius: 20;" stylesheets="@../style.css" text="BUY" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="mouse-movedBROWN" />
+                              <String fx:value="black-background" />
+                           </styleClass>
+                        </Button>
+                        <Button fx:id="pastryFave3" layoutX="468.0" layoutY="303.0" mnemonicParsing="false" onAction="#fave" prefHeight="42.0" prefWidth="50.0" stylesheets="@../style.css">
+                           <styleClass>
+                              <String fx:value="transparent" />
+                              <String fx:value="mouse-movedLIGHTBROWN" />
+                           </styleClass>
+                           <graphic>
+                              <ImageView fitHeight="42.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/favorite.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="596.0" layoutY="2054.0" prefHeight="547.0" prefWidth="596.0" style="-fx-background-color: black;">
+                     <children>
+                        <Label fx:id="pastryname4" layoutX="330.0" layoutY="150.0" prefHeight="57.0" prefWidth="214.0" text="Egg Tart" textFill="WHITE">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <ImageView fx:id="pastry4" fitHeight="550.0" fitWidth="315.0" layoutX="-1.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../images/cinnamontwist.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="pastryprice4" layoutX="331.0" layoutY="211.0" prefHeight="33.0" prefWidth="277.0" text="300.00" textFill="WHITE">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="pastryCart4" layoutX="332.0" layoutY="327.0" mnemonicParsing="false" onAction="#buy" prefHeight="25.0" prefWidth="118.0" style="-fx-background-radius: 20;" stylesheets="@../style.css" text="BUY">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="mouse-movedYELLOW" />
+                              <String fx:value="white-background" />
+                           </styleClass>
+                        </Button>
+                        <Button fx:id="pastryFave4" layoutX="458.0" layoutY="327.0" mnemonicParsing="false" onAction="#fave" prefHeight="42.0" prefWidth="50.0" stylesheets="@../style.css">
+                           <styleClass>
+                              <String fx:value="transparent" />
+                              <String fx:value="mouse-movedBROWN" />
+                           </styleClass>
+                           <graphic>
+                              <ImageView fitHeight="42.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/favorite%20white.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="-8.0" layoutY="2600.0" prefHeight="536.0" prefWidth="609.0" style="-fx-background-color: black;">
+                     <children>
+                        <Label fx:id="pastryname5" layoutX="342.0" layoutY="143.0" prefHeight="57.0" prefWidth="247.0" text="Empanada" textFill="WHITE">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                        <ImageView fx:id="pastry5" fitHeight="538.0" fitWidth="303.0" layoutX="11.0" layoutY="-1.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../images/glazed.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="pastryprice5" layoutX="343.0" layoutY="204.0" prefHeight="33.0" prefWidth="277.0" text="300.00" textFill="WHITE">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="pastryCart5" layoutX="344.0" layoutY="320.0" mnemonicParsing="false" onAction="#buy" prefHeight="25.0" prefWidth="118.0" style="-fx-background-radius: 20;" stylesheets="@../style.css" text="BUY">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="mouse-movedYELLOW" />
+                              <String fx:value="white-background" />
+                           </styleClass>
+                        </Button>
+                        <Button fx:id="pastryFave5" layoutX="470.0" layoutY="320.0" mnemonicParsing="false" onAction="#fave" prefHeight="42.0" prefWidth="50.0" stylesheets="@../style.css">
+                           <styleClass>
+                              <String fx:value="transparent" />
+                              <String fx:value="mouse-movedBROWN" />
+                           </styleClass>
+                           <graphic>
+                              <ImageView fitHeight="42.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/favorite%20white.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="596.0" layoutY="2601.0" prefHeight="537.0" prefWidth="593.0" style="-fx-background-color: white;">
+                     <children>
+                        <ImageView fx:id="pastry6" fitHeight="535.0" fitWidth="317.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../images/peanutbutter.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="pastryname6" layoutX="330.0" layoutY="136.0" prefHeight="57.0" prefWidth="251.0" text="Pandesal">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="pastryprice6" layoutX="334.0" layoutY="192.0" prefHeight="45.0" prefWidth="119.0" text="300.00">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="pastryCart6" layoutX="330.0" layoutY="297.0" mnemonicParsing="false" onAction="#buy" prefHeight="25.0" prefWidth="118.0" style="-fx-background-radius: 20;" stylesheets="@../style.css" text="BUY" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="mouse-movedBROWN" />
+                              <String fx:value="black-background" />
+                           </styleClass>
+                        </Button>
+                        <Button fx:id="pastryFave6" layoutX="462.0" layoutY="297.0" mnemonicParsing="false" onAction="#fave" prefHeight="42.0" prefWidth="50.0" stylesheets="@../style.css">
+                           <styleClass>
+                              <String fx:value="transparent" />
+                              <String fx:value="mouse-movedLIGHTBROWN" />
+                           </styleClass>
+                           <graphic>
+                              <ImageView fitHeight="42.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/favorite.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

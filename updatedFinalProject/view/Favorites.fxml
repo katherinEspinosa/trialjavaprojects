@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="764.0" prefWidth="1190.0" styleClass="white-background" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FaveController">
+   <children>
+      <ScrollPane layoutX="87.0" layoutY="131.0" prefHeight="600.0" prefWidth="535.0" styleClass="transparent" stylesheets="@../style.css">
+         <content>
+            <AnchorPane prefHeight="5089.0" prefWidth="518.0" style="-fx-border-color: transparent;" styleClass="white-background" stylesheets="@../style.css">
+               <children>
+                  <VBox fx:id="myvbox" layoutY="-1.0" prefHeight="5068.0" prefWidth="513.0">
+                     <children>
+                        <Pane fx:id="pane1" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <VBox.margin>
+                              <Insets right="10.0" top="10.0" />
+                           </VBox.margin>
+                           <children>
+                              <ImageView fx:id="cake1" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/blackforest.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cakename1" layoutX="179.0" layoutY="45.0" text="Black Forest">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cakeprice1" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane2" layoutX="10.0" layoutY="20.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="cake2" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/cheesecake.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cakename2" layoutX="179.0" layoutY="45.0" text="Cheesecake">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cakeprice2" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane3" layoutX="10.0" layoutY="178.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="cake3" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/chocomud.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cakename3" layoutX="179.0" layoutY="45.0" text="Choco Mud Cupcake">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cakeprice3" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane4" layoutX="10.0" layoutY="336.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="cake4" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/coffeecake.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cakename4" layoutX="179.0" layoutY="45.0" text="Coffee Cake">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cakeprice4" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane5" layoutX="10.0" layoutY="494.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="cake5" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/redvelvet.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cakename5" layoutX="179.0" layoutY="45.0" text="Red Velvet Cupcake">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cakeprice5" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane6" layoutX="10.0" layoutY="652.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="cake6" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/tiramisu.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cakename6" layoutX="179.0" layoutY="45.0" text="Tiramisu">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cakeprice6" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane7" layoutX="10.0" layoutY="810.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="cookie1" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/chocochip.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cookiename1" layoutX="179.0" layoutY="45.0" text="Chocolate Chip">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookieprice1" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane8" layoutX="10.0" layoutY="968.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="cookie2" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/cremebrulee.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cookiename2" layoutX="179.0" layoutY="45.0" text="Creme Brulee Sugar Cookie">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookieprice2" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane9" layoutX="10.0" layoutY="1126.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="cookie3" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/fortune.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cookiename3" layoutX="179.0" layoutY="45.0" text="Fortune Cookie">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookieprice3" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane10" layoutX="10.0" layoutY="1284.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="cookie4" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/oatmeal.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cookiename4" layoutX="179.0" layoutY="45.0" text="Oatmeal Cookie">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookieprice4" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane11" layoutX="10.0" layoutY="1442.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="cookie5" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/peanutbutterblossom.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cookiename5" layoutX="179.0" layoutY="45.0" text="Peanut Butter Blossom">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookieprice5" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane12" layoutX="10.0" layoutY="1600.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="cookie6" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/smores.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="cookiename6" layoutX="179.0" layoutY="45.0" text="S'mores Stuffed Cookie">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cookieprice6" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane13" layoutX="10.0" layoutY="1758.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="donut1" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/bavarian.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="donutname1" layoutX="179.0" layoutY="45.0" text="Bavarian Cream Filled Donut">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="donutprice1" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane14" layoutX="10.0" layoutY="1916.0" prefHeight="158.0" prefWidth="542.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="donut2" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/chocofrost.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="donutname2" layoutX="179.0" layoutY="45.0" text="Chocolate Frosted Donut">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="donutprice2" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane15" layoutX="10.0" layoutY="2074.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="donut3" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/churros.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="donutname3" layoutX="179.0" layoutY="45.0" text="Churros">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="donutprice3" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane16" layoutX="10.0" layoutY="2232.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="donut4" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/cinnamontwist.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="donutname4" layoutX="179.0" layoutY="45.0" text="Cinnamon Twist Donut">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="donutprice4" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane17" layoutX="10.0" layoutY="2390.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="donut5" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/glazed.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="donutname5" layoutX="179.0" layoutY="45.0" text="Glazed Donuts">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="donutprice5" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane18" layoutX="10.0" layoutY="2548.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="donut6" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/peanutbutter.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="donutname6" layoutX="179.0" layoutY="45.0" text="Peanut Butter Donut">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="donutprice6" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane19" layoutX="10.0" layoutY="2706.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="pastry1" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/bibingka.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="pastryname1" layoutX="179.0" layoutY="45.0" text="Bibingka">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pastryprice1" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane20" layoutX="10.0" layoutY="2864.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="pastry2" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/cinnamonrolls.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="pastryname2" layoutX="179.0" layoutY="45.0" text="Cinnamon Roll">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pastryprice2" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane21" layoutX="10.0" layoutY="3022.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="pastry3" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/croissant.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="pastryname3" layoutX="179.0" layoutY="45.0" text="Croissant">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pastryprice3" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane22" layoutX="10.0" layoutY="3180.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="pastry4" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/eggtart.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="pastryname4" layoutX="179.0" layoutY="45.0" text="Egg Tart">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pastryprice4" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane23" layoutX="10.0" layoutY="3338.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="pastry5" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/empanada.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="pastryname5" layoutX="179.0" layoutY="45.0" text="Empanada">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pastryprice5" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane24" layoutX="10.0" layoutY="3496.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="pastry6" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/pandesal.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="pastryname6" layoutX="179.0" layoutY="45.0" text="Pandesal">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="pastryprice6" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane25" layoutX="10.0" layoutY="3654.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="tool1" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/bakingpanandmolds.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="toolname1" layoutX="179.0" layoutY="45.0" text="Baking Pan Mold">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="toolprice1" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane26" layoutX="10.0" layoutY="3812.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="tool2" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/measuringcups.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="toolname2" layoutX="179.0" layoutY="45.0" text="Measuring Cups">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="toolprice2" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane27" layoutX="10.0" layoutY="3970.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="tool3" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/mixingbowl.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="toolname3" layoutX="179.0" layoutY="45.0" text="Mixing Bowl">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="toolprice3" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane28" layoutX="10.0" layoutY="4128.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="tool4" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/pipingbagandtips.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="toolname4" layoutX="179.0" layoutY="45.0" text="Piping Bag and Tips">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="toolprice4" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane29" layoutX="10.0" layoutY="4286.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="equip1" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/foodprocessor.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="equipname1" layoutX="179.0" layoutY="45.0" text="Food Processor">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="equipprice1" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane30" layoutX="10.0" layoutY="4444.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="equip2" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/handmixer.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="equipname2" layoutX="179.0" layoutY="45.0" text="Hand Mixer">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="equipprice2" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane31" layoutX="10.0" layoutY="4602.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="equip3" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/microwaveoven.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="equipname3" layoutX="179.0" layoutY="45.0" text="Microwave Oven">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="equipprice3" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane fx:id="pane32" layoutX="10.0" layoutY="4760.0" prefHeight="158.0" prefWidth="1026.0" styleClass="white-background" stylesheets="@../style.css">
+                           <children>
+                              <ImageView fx:id="equip4" fitHeight="138.0" fitWidth="135.0" layoutX="27.0" layoutY="10.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../images/standmixer.png" />
+                                 </image>
+                              </ImageView>
+                              <Label fx:id="equipname4" layoutX="179.0" layoutY="45.0" text="Stand Mixer">
+                                 <font>
+                                    <Font name="System Bold" size="23.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="equipprice4" layoutX="179.0" layoutY="79.0" text="Php 300.00">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Line endX="426.0" endY="-205.0" layoutX="-426.0" layoutY="363.0" startX="1442.0" startY="-205.0" />
+                              <Line endX="465.0" endY="-213.0" layoutX="-466.0" layoutY="213.0" startX="1482.0" startY="-213.0" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Label layoutX="411.0" layoutY="35.0" prefHeight="55.0" prefWidth="429.0" text=" YOUR SWEET FAVORITES">
+         <font>
+            <Font name="Arial Bold" size="28.0" />
+         </font>
+      </Label>
+      <Line endX="916.0" layoutX="187.0" layoutY="91.0" startX="-100.0" />
+      <Label layoutX="116.0" layoutY="94.0" prefHeight="37.0" prefWidth="191.0" text="Item(s)">
+         <font>
+            <Font name="Constantia" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="143.0" fitWidth="466.0" layoutX="638.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ad1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="466.0" layoutX="638.0" layoutY="311.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/ad2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="466.0" layoutX="638.0" layoutY="455.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/ad4.png" />
+         </image></ImageView>
+      <Button fx:id="homeButton" layoutX="980.0" layoutY="100.0" mnemonicParsing="false" onAction="#gotohome" prefHeight="37.0" prefWidth="122.0" style="-fx-border-color: black;" stylesheets="@../style.css" text="HOME" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+         <styleClass>
+            <String fx:value="black-background" />
+            <String fx:value="mouse-movedBROWN" />
+         </styleClass>
+      </Button>
+      <ImageView fitHeight="128.0" fitWidth="466.0" layoutX="638.0" layoutY="606.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/ad3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
