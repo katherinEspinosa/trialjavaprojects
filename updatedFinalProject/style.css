@@ -1,0 +1,118 @@
+.white-background { 
+    -fx-background-color: #fff;
+}
+
+.black-background { 
+    -fx-background-color: #000000;
+}
+
+
+.transparent {
+    -fx-background-color: rgba (0,0,0,0);
+}
+
+.round-layout {
+    -fx-border-radious: 50;
+    -fx-border-color: #d7d7d7
+}
+
+.selected {
+    -fx-background-color: #F3F3F3
+}
+
+ .mouse-moved:hover {
+    -fx-background-color: #ffffff;
+
+}
+
+
+.background {
+    -fx-background-color: rgb(219,205,240);
+    -fx-background-color: linear-gradient(0deg, rgba(219,205,240,1) 17%, rgba(247,217,196,1) 100%);
+}
+
+
+.shadow {
+    -fx-effect: dropShadow (three-pass-box,rgba(0,0,0,0.1), 10.0, 0.0,  0.0, 10.0);
+}
+
+.textField {
+    -fx-background-color: rgba(255,255,255,8.3);
+    -fx-background-radius: 38;
+}
+
+.mouse-movedPURPLE:hover {
+    -fx-background-color: #dbcdf0;
+}
+
+.mouse-movedYELLOW:hover {
+    -fx-background-color: #faedcb;
+}
+
+.mouse-movedGREEN:hover {
+    -fx-background-color: #c9e4de;
+}
+
+.mouse-movedBLUE:hover {
+    -fx-background-color: #c6def1;
+}
+
+.mouse-movedPINK:hover {
+    -fx-background-color: #f2c6de;
+}
+
+.mouse-movedORANGE:hover {
+    -fx-background-color: #f7D9C4;
+}
+
+.mouse-movedBROWN:hover {
+    -fx-background-color: #ab701b;
+}
+
+.mouse-movedLIGHTBROWN:hover {
+    -fx-background-color: #efe7dd;
+}
+
+/* .family-fonts {
+    font-family: Avatar, Bryndan Write, Coiny;
+} */
+
+.mouse-movedBUTTON:hover {
+    -fx-background-color: #e6fffa;
+}
+
+.selectedPurple {
+    -fx-background-color: #dbcdf0;
+}
+
+.selectedPink {
+    -fx-background-color: #f2c6de;
+}
+
+.selectedGreen {
+    -fx-background-color: #c9e4de;
+}
+
+.selectedBlue {
+    -fx-background-color: #c6def1;
+}
+
+.selectedYellow {
+    -fx-background-color: #faedcb;
+}
+
+.selectedOrange {
+    -fx-background-color: #f7D9C4;
+}
+
+.choiceBox {
+    -fx-background-color: rgba (255,255,255,8.3);
+}
+
+.mouse-movedBLACK:hover {
+    -fx-background-color: #0000;
+}
+
+.grayBackground {
+    -fx-background-color: #dadada;
+}
